@@ -56,7 +56,7 @@ function SignUp() {
               className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-custom-blue"
             />
           </div>
-          <Link to="/verify" >
+          <Link to="/home" >
             <button className="w-full bg-custom-blue text-white py-2 rounded-lg hover:bg-brown-700 transition duration-200">
             Sign Up
             </button>
