@@ -20,7 +20,7 @@ const OwnerPopup = () => {
     // Set interval to show the popup every 10 minutes (600,000 ms)
     const interval = setInterval(() => {
       showPopup();
-    }, 700000);
+    }, 900000);
 
     // Clear the interval when the component unmounts
     return () => clearInterval(interval);
